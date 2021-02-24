@@ -1,6 +1,7 @@
 package com.company;
 
-// Do not use empty classes. Instead use interfaces.
-public class Order {
+//UPDATE 1: Changed Order class to Interface
+public interface Order {
 
+    
 }

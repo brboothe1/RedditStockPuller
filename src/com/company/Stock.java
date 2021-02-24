@@ -6,17 +6,19 @@ public class Stock {
     private final String ticker;
     private final String companyName;
     private final double price;
-    marketOrder marketOrder;
-    limitOrder limitOrder;
 
-    public Stock(String ticker, String companyName, double price, marketOrder marketOrder, limitOrder limitOrder) {
+    //UPDATE 1: Removed marketOrder and limitOrder from Stock object Initiation
+
+    public Stock(String ticker, String companyName, double price) {
 
         this.ticker = ticker;
         this.companyName = companyName;
         this.price = price;
-        this.marketOrder = marketOrder;
-        this.limitOrder = limitOrder;
 
+    }
+
+    public String toString(){
+        return String.format ("The limit order price is %s.", price);
     }
 
 }
