@@ -1,9 +1,11 @@
 package com.company;
 
 public class Stock {
-    String ticker;
-    String companyName;
-    double price;
+    // Get in the habit of making things `final` wherever possible.
+    // Also make sure to use the least visible modifier. In this case, `private`.
+    private final String ticker;
+    private final String companyName;
+    private final double price;
     marketOrder marketOrder;
     limitOrder limitOrder;
 
