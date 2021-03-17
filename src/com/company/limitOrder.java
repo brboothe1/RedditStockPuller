@@ -1,5 +1,6 @@
 package com.company;
 
+// Classes should always use upper camel case in java.
 public class limitOrder implements Order {
 
     // Naming is incredibly important in engineering. The best type of documentation is self-documenting code.

@@ -12,8 +12,8 @@ public class Main {
 
         Stock gme = new Stock("GME", "Gamestop", 56.34);
 
-        marketOrder gmeMarkerOrder = new marketOrder();
-        limitOrder gmeLimitOrder = new limitOrder(84.24);
+        marketOrder gmeMarkerOrder = new marketOrder(); // This should be something like `new MarketOrder(gme)`.
+        limitOrder gmeLimitOrder = new limitOrder(84.24); // This should be something like `new LimitOrder(gme, 84.24)`.
 
     }
 }

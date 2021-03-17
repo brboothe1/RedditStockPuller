@@ -8,8 +8,8 @@ public class marketOrder implements Order {
 
     //UPDATE 1: Changed marketOrder from an input to a currentStockPrice value (might be redundant)
 
-    double currentStockPrice;
-    double marketOrder = currentStockPrice;
+    double currentStockPrice; // Isn't this in the Stock class already?
+    double marketOrder = currentStockPrice; // Market order doesn't have a set price right?
 
     public marketOrder() {
 
