@@ -9,3 +9,16 @@ To do list, first notes from mentor:
 To do tomorrow:
 1. Figure out why it can't find the main class when I run.
 2. Compose one stock and order with orders dependent on the stock class.
+
+
+----------------3/17/21 Update ----------------
+
+1. Optimized use of toString methods for limit orders nad market orders.
+2. Improved access modifiers for variables in limit orders and market orders
+
+
+----------------3/18/21 Update ----------------
+
+1. Cloned Repository
+2. Made changes based on feedback round 2
+3. New "feature-1" branch
