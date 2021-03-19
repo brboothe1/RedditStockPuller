@@ -11,6 +11,7 @@ public class Stock {
         this.ticker = ticker;
         this.companyName = companyName;
         this.price = price;
+
     }
 
     public String toString() {return String.format ("%s (%s, Purchase Price: $%.2f)" , ticker, companyName, price);

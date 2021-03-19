@@ -11,6 +11,7 @@ To do tomorrow:
 2. Compose one stock and order with orders dependent on the stock class.
 
 
+
 ----------------3/17/21 Update ----------------
 
 1. Optimized use of toString methods for limit orders nad market orders.

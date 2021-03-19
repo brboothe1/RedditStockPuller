@@ -4,7 +4,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-
         Stock GME = new Stock("GME", "GameStop", 150.24);
 
         Order GMEMarketOrder = new MarketOrder(GME);

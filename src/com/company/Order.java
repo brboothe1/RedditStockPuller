@@ -8,4 +8,5 @@ public interface Order {
     // Stock isn't a constant, it changes with each instantiation. (Can't write Stock ticker;)
     // Using market/limitOrder methods would need them to be used in all implementations of Order interface
 
+
 }
