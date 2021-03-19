@@ -1,5 +1,6 @@
 package com.company;
 
+// change to file name
 public class LimitOrder implements Order {
 
     private double value;
@@ -9,6 +10,7 @@ public class LimitOrder implements Order {
 
         this.value = value;
         this.ticker = ticker;
+
 
     }
 

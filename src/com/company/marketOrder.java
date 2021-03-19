@@ -2,11 +2,13 @@ package com.company;
 
 public class MarketOrder implements Order {
 
+    //Change to file name
     private final Stock ticker;
 
     public MarketOrder(Stock ticker) {
 
         this.ticker = ticker;
+
 
     }
 
