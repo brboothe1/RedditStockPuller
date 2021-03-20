@@ -4,16 +4,13 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Stock GME = new Stock("GME", "GameStop", 150.24);
 
-        // This feels backwards. Stock is the data model. Order is the action. Order should take in a Stock
-        // as a dependency not the other way around.
+        Order GMEMarketOrder = new MarketOrder(GME);
+        Order GMELimitOrder = new LimitOrder(GME, 92.24);
 
-        //UPDATE 1: Flipped the Orders and Stock initiation for general idea of look.
-
-        Stock gme = new Stock("GME", "Gamestop", 56.34);
-
-        marketOrder gmeMarkerOrder = new marketOrder(); // This should be something like `new MarketOrder(gme)`.
-        limitOrder gmeLimitOrder = new limitOrder(84.24); // This should be something like `new LimitOrder(gme, 84.24)`.
+        System.out.println(GMEMarketOrder);
+        System.out.println(GMELimitOrder);
 
     }
 }
